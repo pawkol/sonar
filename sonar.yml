@@ -1,3 +1,5 @@
+#SONARQUBE
+
 services:
   # Serwer SonarQube
   sonarqube:
