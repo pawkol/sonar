@@ -7,7 +7,7 @@
 7. Before deploing sonarscanner you need to set sonar-project.properties in code location.
   Example:
   sonar.projectKey=my_project_key
-  sonar.projectName=My Project
+  sonar.projectName=My_Project
   sonar.projectVersion=1.0
   sonar.sources=.
 
