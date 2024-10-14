@@ -1,0 +1,17 @@
+services:
+  # Kontener dla SonarQube Scanner
+  sonar-scanner:
+    image: sonarsource/sonar-scanner-cli
+    container_name: sonar-scanner
+    environment:
+      SONAR_HOST_URL: http://sonarqube:9000
+      SONAR_TOKEN: # YOUR SONARA TOKEN 
+    volumes:
+      - /path/to/code:/usr/src  # /home/pol/code:/usr/src    
+    networks:
+      - sona
+    
+networks:
+  sona:
+    external: true
+
