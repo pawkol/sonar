@@ -1,3 +1,5 @@
+#SCANNER
+
 services:
   # Kontener dla SonarQube Scanner
   sonar-scanner:
