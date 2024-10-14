@@ -1,3 +1,5 @@
+Create docker network before the steps.
+
 1. First step is to deploy docker stack with "docker stack deploy -c sonar.yml sonar"
 2. Sonarqube is available on port 9000. I use virtualbox so on NAT card I set port 9999 which aims port 9000 on the virtual machine.
 3. In a browser I use localhost:9999.
