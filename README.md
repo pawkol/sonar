@@ -5,7 +5,7 @@ Create docker network before the steps.
 3. In a browser I use localhost:9999.
 4. To log in to SonarQube use login: admin, password: admin. Change the password.
 5. Go to your account -> security -> generate USER TOKEN
-6. Paste you User TOKEN in scaner.yml
+6. Paste your User TOKEN in scaner.yml
 7. Before deploing sonarscanner you need to set sonar-project.properties in code location.
   Example:
   sonar.projectKey=my_project_key
